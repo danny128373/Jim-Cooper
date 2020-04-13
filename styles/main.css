@@ -1,18 +1,39 @@
-nav ul {
+body {
+  background: black;
+}
+nav ul{
   list-style-type: none;
   display: flex;
   justify-content: space-around;
-  background: darkblue;
+  background: lightcoral;
   color: white;
   padding: .5em;
 }
 
 .jimCooperPic {
-  width: auto;
+  width: 250px;
 }
 
 table {
-  max-width: 5em;
-  max-height: 5em;
+  background:lightblue;
+  text-align: center;
+  float: right;
+  width: min-content;
+}
+
+tr {
+  align-content: center;
+}
+
+td {
+  padding: .5em
+}
+
+article {
+  color:white;
+  padding: 2em;
+  text-align: center;
+  font-size: 35px;
+  margin: 2em;
 }
 
