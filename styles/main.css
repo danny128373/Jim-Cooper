@@ -11,7 +11,7 @@ nav ul{
 }
 
 .jimCooperPic {
-  width: 250px;
+  width: 300px;
 }
 
 table {
@@ -31,9 +31,28 @@ td {
 
 article {
   color:white;
-  padding: 2em;
+  padding: 1em;
   text-align: center;
   font-size: 35px;
-  margin: 2em;
 }
 
+footer {
+  bottom: 0;
+  height: 2.5em;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}  
+
+
+.youtube {
+  height: -webkit-fill-available;
+}
+
+.facebook {
+  height: -webkit-fill-available;
+}
+
+.twitter {
+  height: -webkit-fill-available;
+}
