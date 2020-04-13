@@ -3,7 +3,8 @@ body {
   margin: 0;
   padding: 0;
 }
-nav ul{
+
+nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-around;
@@ -19,7 +20,7 @@ nav ul{
 }
 
 table {
-  background:lightblue;
+  background: lightblue;
   text-align: center;
   float: right;
   width: min-content;
@@ -34,7 +35,7 @@ td {
 }
 
 article {
-  color:white;
+  color: white;
   padding: 1em;
   text-align: center;
   font-size: 35px;
@@ -47,8 +48,7 @@ footer {
   position: fixed;
   width: 100%;
   margin: .5em;
-}  
-
+}
 
 .youtube {
   height: -webkit-fill-available;
@@ -60,4 +60,14 @@ footer {
 
 .twitter {
   height: -webkit-fill-available;
+}
+
+.educationInfo {
+  font-size: 20px;
+  text-align: left;
+}
+
+p {
+  text-indent: 50px;
+  padding: .1em;
 }
